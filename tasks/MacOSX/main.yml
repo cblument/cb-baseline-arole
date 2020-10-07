@@ -9,6 +9,11 @@
   - ripgrep
   - wget
 
+  # osx defaults reference:
+  # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+  # https://github.com/pawelgrzybek/dotfiles/blob/master/setup-macos.sh
+
+
 - osx_defaults:
     domain: com.apple.dock
     key: IncludeInternalDebugMenu
