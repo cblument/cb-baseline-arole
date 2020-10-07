@@ -1,0 +1,4 @@
+---
+- hosts: localhost
+  roles:
+    - cb-baseline-arole/

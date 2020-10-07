@@ -1,0 +1,31 @@
+galaxy_info:
+  author: Chris Blumentritt
+  description: Configure simple items for laptop
+
+
+  # Choose a valid license ID from https://spdx.org - some suggested licenses:
+  # - BSD-3-Clause (default)
+  # - MIT
+  # - GPL-2.0-or-later
+  # - GPL-3.0-only
+  # - Apache-2.0
+  # - CC-BY-4.0
+  license: license (GPL-2.0-or-later, MIT, etc)
+
+  min_ansible_version: 2.9
+
+  # To view available platforms and versions (or releases), visit:
+  # https://galaxy.ansible.com/api/v1/platforms/
+  #
+  platforms:
+  - name: MacOSX
+    versions:
+    - Catalina
+
+  galaxy_tags:
+  - ripgrep
+  - jq
+  - macosx
+
+dependencies: []
+  
