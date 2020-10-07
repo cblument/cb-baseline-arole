@@ -1,0 +1,26 @@
+---
+- name: install packages homebrew
+  homebrew:
+    name: "{{ item }}"
+    state: present
+  loop:
+  - httpie
+  - jq
+  - ripgrep
+  - wget
+
+- osx_defaults:
+    domain: com.apple.dock
+    key: IncludeInternalDebugMenu
+    type: int
+    value: 24
+    state: present
+  notify:
+  - restart macos dock
+
+- osx_defaults:
+    domain: NSGlobalDomain
+    key: com.apple.swipescrolldirection
+    type: bool
+    value: false
+    state: present
