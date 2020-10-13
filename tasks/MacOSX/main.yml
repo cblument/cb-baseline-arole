@@ -9,6 +9,7 @@
   - ripgrep
   - wget
   - ipmitool
+  - terraform
 
   # osx defaults reference:
   # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
