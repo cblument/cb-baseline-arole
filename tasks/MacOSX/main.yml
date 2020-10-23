@@ -18,6 +18,9 @@
   # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
   # https://github.com/pawelgrzybek/dotfiles/blob/master/setup-macos.sh
 
+- homebrew_cask:
+    name: alfred
+    state: present
 
 - osx_defaults:
     domain: com.apple.dock
