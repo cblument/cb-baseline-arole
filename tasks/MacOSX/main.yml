@@ -10,6 +10,9 @@
   - wget
   - ipmitool
   - terraform
+  - git
+  - git-filter-repo
+  - ipcalc
 
   # osx defaults reference:
   # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
