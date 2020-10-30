@@ -13,6 +13,7 @@
   - git
   - git-filter-repo
   - ipcalc
+  - sf-pwgen
 
   # osx defaults reference:
   # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
