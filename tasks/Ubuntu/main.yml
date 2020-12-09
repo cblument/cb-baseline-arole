@@ -16,3 +16,8 @@
   - ipcalc
   - telnet
 
+- name: set vi as default editor
+  alternatives:
+    name: editor
+    path: /usr/bin/vi
+  become: yes
