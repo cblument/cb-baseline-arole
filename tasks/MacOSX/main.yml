@@ -14,6 +14,7 @@
   - git-filter-repo
   - ipcalc
   - sf-pwgen
+  - telnet
 
   # osx defaults reference:
   # https://github.com/mathiasbynens/dotfiles/blob/master/.macos
