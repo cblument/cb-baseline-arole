@@ -15,6 +15,7 @@
   - git
   - ipcalc
   - telnet
+  - curl
 
 - name: set vi as default editor
   alternatives:
