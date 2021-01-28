@@ -17,6 +17,9 @@
   - telnet
   - curl
   - calc
+  - tilix
+  - gnome-shell-extension-tilix-dropdown
+  - sqlite
 
 - name: set vi as default editor
   alternatives:
