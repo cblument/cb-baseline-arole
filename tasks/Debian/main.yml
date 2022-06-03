@@ -1,0 +1,25 @@
+---
+- name: install packages
+  apt:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+    cache_valid_time: 300
+  become: yes
+  loop:
+  - httpie
+  - jq
+  - ripgrep
+  - wget
+  - ipmitool
+  - git
+  - ipcalc
+  - telnet
+  - curl
+  - sqlite
+
+- name: set vi as default editor
+  alternatives:
+    name: editor
+    path: /usr/bin/vi
+  become: yes
