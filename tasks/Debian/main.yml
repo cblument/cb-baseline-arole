@@ -17,6 +17,7 @@
   - telnet
   - curl
   - sqlite
+  - gnupg2
 
 - name: set vi as default editor
   alternatives:
